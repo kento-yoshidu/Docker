@@ -1,4 +1,8 @@
+## 参考
+
 [Erlang World](http://erlangworld.web.fc2.com/)
+
+[Erlang の string モジュールの古い非推奨の関数から代わりの関数へ移行する - 後編 - 無題の備忘録](https://stacktrace.hatenablog.jp/entry/2019/10/15/200000)
 
 ## 変数
 
