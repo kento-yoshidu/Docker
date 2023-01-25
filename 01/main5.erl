@@ -13,7 +13,7 @@
   class
 }).
 
--import(mymath, [add/2, multi/2, circle/1]).
+-import(mymath, [add/2, multi/2, circle/1, area/2, bigger/2, bigger2/2, animal/1]).
 
 main() ->
   %% レコード　構造体みたいなやつ
@@ -35,5 +35,17 @@ main() ->
 
   io:format("~p ~n", [add(3, 10)]),
   io:format("~p ~n", [multi(8, 4)]),
-  io:format("~p ~n", [circle(10)]).
-  
+  io:format("~p ~n", [circle(10)]),
+
+  io:format("~p ~n", [area(circle, 5)]),
+  io:format("~p ~n", [area(square, 5)]),
+  io:format("~p ~n", [area("foo", 5)]),
+
+  io:format("~p ~n", [bigger(10, 1)]),
+  io:format("~p ~n", [bigger(3, 11)]),
+  io:format("~p ~n", [bigger(11, 11)]),
+
+  io:format("~p ~n", [bigger2(foo, bar)]),
+
+  io:format("~p ~n", [animal(dog)]),
+  io:format("~p ~n", [animal(banana)]).
