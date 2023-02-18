@@ -48,4 +48,14 @@ main() ->
   io:format("~p ~n", [bigger2(foo, bar)]),
 
   io:format("~p ~n", [animal(dog)]),
-  io:format("~p ~n", [animal(banana)]).
+  io:format("~p ~n", [animal(banana)]),
+
+  % =は変数の値への束縛と比較を兼ねる
+  One = 1,
+  io:format("One is ~p ~n", [One]),
+  %=> One is 1
+
+  io:format("~p ~n", [42 = 40 + 2]).
+  %=> 42
+  % io:format("~p ~n", [42 = 1 + 1]).
+  %=> ** exception error: no match of right hand side value 2
