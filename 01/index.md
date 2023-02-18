@@ -4,6 +4,8 @@
 
 [Erlang の string モジュールの古い非推奨の関数から代わりの関数へ移行する - 後編 - 無題の備忘録](https://stacktrace.hatenablog.jp/entry/2019/10/15/200000)
 
+[Introduction | Learn You Some Erlang for Great Good!](https://www.ymotongpoo.com/works/lyse-ja/index.html)
+
 ## 変数
 
 変数は大文字で始める。型は値を束縛した時に自動的に決定される。
