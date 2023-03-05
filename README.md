@@ -46,7 +46,7 @@ main1(Args) ->
 ```
 
 ```erlang
-1> c(main1).                  
+1> c(main1).
 {ok,main1}
 
 2> main1:main(erlang).
